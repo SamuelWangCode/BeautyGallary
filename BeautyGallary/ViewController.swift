@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "GoToGallary"{
+        if segue.identifier == "GoToGallery"{
             let index = beautiPicker.selectedRow(inComponent: 0)
             let images = ["fanbingbing", "libingbing", "wangfei", "yangmi", "zhouxun"]
             let imageName = images[index]
